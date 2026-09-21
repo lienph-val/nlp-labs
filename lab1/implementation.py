@@ -2,44 +2,54 @@ import math
 
 def build_vocabulary(documents):
     vocabulary = set()
+
     for document in documents:
-        tokens = document.lower().split() #tách 
+        tokens = document.lower().split() #chuyển chữ thường, tách theo khoảng trắng
         for token in tokens:
             vocabulary.add(token)
+
     return sorted(vocabulary)
 
 def compute_counts(documents, vocabulary):
     count_vectors = []
+
     for document in documents:
         tokens = document.lower().split()
         vector = []
         for term in vocabulary:
-            count = tokens.count(term)
+            count = tokens.count(term) #đếm số lần mỗi term xuất hiện trong document
             vector.append(count)
         count_vectors.append(vector)
+
     return count_vectors
 
 def compute_tf(count_vector): 
     total_terms = sum(count_vector)
+
     if total_terms == 0:
         return [0.0] * len(count_vector)
+    
     tf_vector = []
+    
     for count in count_vector:
         tf = count / total_terms #count / tổng số từ
         tf_vector.append(tf)
+
     return tf_vector
 
 def compute_idf(count_vectors):
     N = len(count_vectors)
     vocabulary_size = len(count_vectors[0])
     idf_vector = []
+
     for j in range(vocabulary_size):
         df = 0
         for vector in count_vectors:
             if vector[j] > 0:
                 df += 1
-        idf = math.log(N / df)
+        idf = math.log(N / df) #khác với sklearn 
         idf_vector.append(idf)
+
     return idf_vector
 
 def compute_tfidf(tf_vector, idf_vector):
