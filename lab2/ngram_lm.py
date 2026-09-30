@@ -447,3 +447,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# AI assistance statement
+# Tool: ChatGPT, Gemini
+# Purpose: Debugging, fixing, and optimizing the implementation code.
+# What was generated: Code suggestions and debugging guidance.
+# What was modified: Code was adapted to fit the LAB requirements.
+# How the result was verified: Tested by running the code and checking the outputs.
