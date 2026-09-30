@@ -5,3 +5,17 @@ Bigram MLE,124.19700319451368,inf,inf,0,125150,117145
 Bigram Laplace,6456.776744316638,9427.40924975335,8838.94082992483,0,0,0
 Trigram MLE,6.891745720927954,inf,inf,0,279363,270205
 Trigram Laplace,27911.681308163596,51650.29541513868,50750.06848160877,0,0,0
+
+20: NEXT-WORD PREDICTION
+Context,Prediction,Actual,Probability
+the cat,house,had,0.0002
+natural language,and,processing,0.0004
+machine learning,and,including,0.0005
+in the,most,area,0.0066
+one of,the,photographs,0.1006
+
+21: SENTENCE RANKING
+Context,Candidate,Log Probability,Log P / Word
+machine learning,banana computer quickly,-34.17,-11.39
+machine learning,studies language models,-34.17,-11.39
+machine learning,is useful for nlp,-37.03,-9.26
