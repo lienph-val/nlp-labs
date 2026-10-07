@@ -1,4 +1,4 @@
-Cấu trúc thư mụcchung cho các lab:
+Cấu trúc thư mục chung cho các lab:
 ```
 nlp-labs/
 ├── data/
