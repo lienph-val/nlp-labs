@@ -1,0 +1,95 @@
+section,item,metric,value
+17_word2vec_config,corpus,num_sentences,4200
+17_word2vec_config,corpus,vocabulary_size,80
+17_word2vec_config,word2vec,vector_size,100
+17_word2vec_config,word2vec,window,5
+17_word2vec_config,word2vec,min_count,2
+17_word2vec_config,word2vec,epochs,10
+17_word2vec_config,word2vec,objective,Skip-gram
+18_inspect_doctor_top5,physician,cosine_similarity,0.9112
+18_inspect_doctor_top5,patient,cosine_similarity,0.8871
+18_inspect_doctor_top5,at,cosine_similarity,0.8796
+18_inspect_doctor_top5,nurse,cosine_similarity,0.8681
+18_inspect_doctor_top5,treated,cosine_similarity,0.8669
+19_context_window,doctor-physician,window_2_cosine,0.9603
+19_context_window,doctor-physician,window_5_cosine,0.9518
+19_context_window,doctor-physician,window_10_cosine,0.9658
+19_context_window,doctor-hospital,window_2_cosine,0.9275
+19_context_window,doctor-hospital,window_5_cosine,0.9306
+19_context_window,doctor-hospital,window_10_cosine,0.9511
+19_context_window,cat-dog,window_2_cosine,0.9788
+19_context_window,cat-dog,window_5_cosine,0.9835
+19_context_window,cat-dog,window_10_cosine,0.9792
+20_embedding_dimension,dim_50,training_time_sec,0.12
+20_embedding_dimension,dim_50,matrix_size_mb,0.02
+20_embedding_dimension,dim_100,training_time_sec,0.11
+20_embedding_dimension,dim_100,matrix_size_mb,0.03
+20_embedding_dimension,dim_300,training_time_sec,0.16
+20_embedding_dimension,dim_300,matrix_size_mb,0.09
+21_word_similarity,car-automobile,cosine_similarity,0.9966
+21_word_similarity,car-automobile,rank,1
+21_word_similarity,king-queen,cosine_similarity,0.9902
+21_word_similarity,king-queen,rank,2
+21_word_similarity,cat-dog,cosine_similarity,0.9497
+21_word_similarity,cat-dog,rank,3
+21_word_similarity,doctor-physician,cosine_similarity,0.9112
+21_word_similarity,doctor-physician,rank,4
+21_word_similarity,computer-banana,cosine_similarity,0.4648
+21_word_similarity,computer-banana,rank,5
+22_word_analogy,king - man + woman,top1_prediction,queen
+22_word_analogy,queen,analogy_score,0.9843
+22_word_analogy,crown,analogy_score,0.9302
+22_word_analogy,wore,analogy_score,0.8989
+24_query_expansion,physician,related_to_physician,at hospital doctor
+24_query_expansion,doctor disease,related_to_doctor,physician patient at
+24_query_expansion,doctor disease,related_to_disease,went cure cured
+24_query_expansion,queen crown,related_to_queen,king crown rules
+24_query_expansion,queen crown,related_to_crown,wore king queen
+24_query_expansion,car,related_to_car,automobile driver garage
+24_query_expansion,cat mouse,related_to_cat,chases mouse dog
+24_query_expansion,cat mouse,related_to_mouse,dog chases cat
+24_semantic_search,physician,top1_document,the physician cured the disease
+24_semantic_search,physician,top1_semantic_score,0.9477
+24_semantic_search,physician,top1_keyword_score,1
+24_semantic_search,physician,top2_document,the nurse works at the hospital
+24_semantic_search,physician,top2_semantic_score,0.8802
+24_semantic_search,physician,top2_keyword_score,0
+24_semantic_search,physician,top3_document,the doctor helped the patient
+24_semantic_search,physician,top3_semantic_score,0.825
+24_semantic_search,physician,top3_keyword_score,0
+24_semantic_search,doctor disease,top1_document,the physician cured the disease
+24_semantic_search,doctor disease,top1_semantic_score,0.9738
+24_semantic_search,doctor disease,top1_keyword_score,1
+24_semantic_search,doctor disease,top2_document,the doctor helped the patient
+24_semantic_search,doctor disease,top2_semantic_score,0.9242
+24_semantic_search,doctor disease,top2_keyword_score,1
+24_semantic_search,doctor disease,top3_document,the nurse works at the hospital
+24_semantic_search,doctor disease,top3_semantic_score,0.9062
+24_semantic_search,doctor disease,top3_keyword_score,0
+24_semantic_search,queen crown,top1_document,the queen wore a crown
+24_semantic_search,queen crown,top1_semantic_score,0.9901
+24_semantic_search,queen crown,top1_keyword_score,2
+24_semantic_search,queen crown,top2_document,the king rules the kingdom
+24_semantic_search,queen crown,top2_semantic_score,0.929
+24_semantic_search,queen crown,top2_keyword_score,0
+24_semantic_search,queen crown,top3_document,she ate a banana
+24_semantic_search,queen crown,top3_semantic_score,0.5289
+24_semantic_search,queen crown,top3_keyword_score,0
+24_semantic_search,car,top1_document,he bought a new automobile
+24_semantic_search,car,top1_semantic_score,0.9013
+24_semantic_search,car,top1_keyword_score,0
+24_semantic_search,car,top2_document,the programmer writes code on the computer
+24_semantic_search,car,top2_semantic_score,0.4534
+24_semantic_search,car,top2_keyword_score,0
+24_semantic_search,car,top3_document,the queen wore a crown
+24_semantic_search,car,top3_semantic_score,0.2987
+24_semantic_search,car,top3_keyword_score,0
+24_semantic_search,cat mouse,top1_document,the dog chases the cat
+24_semantic_search,cat mouse,top1_semantic_score,0.9929
+24_semantic_search,cat mouse,top1_keyword_score,1
+24_semantic_search,cat mouse,top2_document,the cat eats fish
+24_semantic_search,cat mouse,top2_semantic_score,0.9801
+24_semantic_search,cat mouse,top2_keyword_score,1
+24_semantic_search,cat mouse,top3_document,the programmer writes code on the computer
+24_semantic_search,cat mouse,top3_semantic_score,0.4642
+24_semantic_search,cat mouse,top3_keyword_score,0
