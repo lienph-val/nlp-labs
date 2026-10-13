@@ -1,0 +1,12 @@
+experiment,representation,classifier,split,vocab_size,train_time,accuracy,precision,recall,f1,note
+exp2_baseline,TF-IDF,Logistic Regression,validation,54511,13.86,0.8951,0.8844,0.91,0.897,
+exp2_baseline,TF-IDF,Logistic Regression,test,54511,13.86,0.8998,0.894,0.908,0.9009,
+exp3_compare,Avg Word2Vec,Logistic Regression,test,56757,55.6,0.8506,0.8468,0.8574,0.8521,
+exp3_compare,TF-IDF,Linear SVM,test,54511,1.58,0.8996,0.8955,0.9056,0.9005,train_time chỉ tính phần fit SVM
+exp4_word_order,TF-IDF,Logistic Regression,,,,,,,,S1 'this movie is good' P(pos)=0.8593
+exp4_word_order,Avg Word2Vec,Logistic Regression,,,,,,,,S1 'this movie is good' P(pos)=0.9882
+exp4_word_order,TF-IDF,Logistic Regression,,,,,,,,S2 'this movie is not good' P(pos)=0.5668
+exp4_word_order,Avg Word2Vec,Logistic Regression,,,,,,,,S2 'this movie is not good' P(pos)=0.5073
+exp5_ngram,TF-IDF Unigram,Logistic Regression,test,54511,10.3,0.8998,0.894,0.908,0.9009,
+exp5_ngram,TF-IDF Uni + Bigram,Logistic Regression,test,614975,26.55,0.9018,0.8922,0.9148,0.9034,
+application,TF-IDF Uni + Bigram,Logistic Regression,test,614975,24.62,0.9018,0.8922,0.9148,0.9034,"Option A sentiment, sklearn Pipeline"
