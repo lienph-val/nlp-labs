@@ -1,0 +1,12 @@
+experiment,model,representation,max_length,pct_tokens_retained,vocab_size,embedding_dim,hidden_size,params,rnn_params,epochs_run,best_epoch,train_time_sec,best_val_loss,accuracy,precision,recall,f1,seed,notes
+exp2_exp5_length,LSTM,Embedding (learned),50,21.44,20000,128,128,2692225,132096,6,4,218.83,0.5346,0.743,0.72736,0.77822,0.75193,42,padding/truncation sweep
+exp2_exp5_length,LSTM,Embedding (learned),100,41.39,20000,128,128,2692225,132096,6,3,738.18,0.60201,0.73,0.72665,0.73826,0.73241,42,padding/truncation sweep
+exp2_exp5_length,LSTM,Embedding (learned),50,21.44,20000,128,128,2692225,132096,6,4,401.84,0.5346,0.743,0.72736,0.77822,0.75193,42,padding/truncation sweep
+exp2_exp5_length,LSTM,Embedding (learned),100,41.39,20000,128,128,2692225,132096,6,3,736.02,0.60201,0.73,0.72665,0.73826,0.73241,42,padding/truncation sweep
+exp2_exp5_length,LSTM,Embedding (learned),200,68.45,20000,128,128,2692225,132096,6,6,2145.68,0.46296,0.8325,0.81006,0.86913,0.83855,42,padding/truncation sweep
+exp3_baseline,LogisticRegression,TF-IDF,,,39354,,,39355,,,,2.53,,0.89,0.88098,0.9021,0.89141,42,"ngram_range=(1, 1)"
+exp3_baseline,RNN,Embedding (learned),200,68.45,20000,128,128,2593153,33024,6,5,645.65,0.56271,0.734,0.7415,0.71928,0.73022,42,simple RNN vs TF-IDF
+exp4_rnn_lstm_gru,GRU,Embedding (learned),200,68.45,20000,128,128,2659201,99072,6,5,3148.23,0.45198,0.8345,0.78294,0.92607,0.84851,42,
+exp2_exp5_length,RNN,Embedding (learned),50,21.44,20000,128,128,2593153,33024,6,5,99.79,0.63817,0.6725,0.65959,0.71429,0.68585,42,sequence length sweep
+exp2_exp5_length,RNN,Embedding (learned),100,41.39,20000,128,128,2593153,33024,6,6,287.71,0.62567,0.67,0.63394,0.80619,0.70976,42,sequence length sweep
+application,GRU,Embedding (learned),200,68.45,20000,128,128,2659201,99072,6,5,3148.23,0.45198,0.8345,0.78294,0.92607,0.84851,42,sentiment classifier pipeline (raw review -> label); model = Experiment 4 run
