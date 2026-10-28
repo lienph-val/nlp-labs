@@ -1,0 +1,152 @@
+time,section,name,metric,value
+2026-10-27 23:46:33,17_stability,"x=[1000,1001,1002]",weight_1,0.090031
+2026-10-27 23:46:33,17_stability,"x=[1000,1001,1002]",weight_2,0.244728
+2026-10-27 23:46:33,17_stability,"x=[1000,1001,1002]",weight_3,0.665241
+2026-10-27 23:47:49,15_temperature,T=0.5,max_weight,0.8282
+2026-10-27 23:47:49,15_temperature,T=0.5,entropy,0.6068
+2026-10-27 23:47:49,15_temperature,T=1.0,max_weight,0.5745
+2026-10-27 23:47:49,15_temperature,T=1.0,entropy,1.1211
+2026-10-27 23:47:49,15_temperature,T=2.0,max_weight,0.4056
+2026-10-27 23:47:49,15_temperature,T=2.0,entropy,1.3181
+2026-10-27 23:50:08,18_exp1,queryA:The,score,0.0
+2026-10-27 23:50:08,18_exp1,queryA:The,attention,0.0509
+2026-10-27 23:50:08,18_exp1,queryA:movie,score,0.0
+2026-10-27 23:50:08,18_exp1,queryA:movie,attention,0.0509
+2026-10-27 23:50:08,18_exp1,queryA:was,score,0.0
+2026-10-27 23:50:08,18_exp1,queryA:was,attention,0.0509
+2026-10-27 23:50:08,18_exp1,queryA:surprisingly,score,0.9
+2026-10-27 23:50:08,18_exp1,queryA:surprisingly,attention,0.1252
+2026-10-27 23:50:08,18_exp1,queryA:good,score,1.5
+2026-10-27 23:50:08,18_exp1,queryA:good,attention,0.2282
+2026-10-27 23:50:08,18_exp1,queryA:despite,score,0.45
+2026-10-27 23:50:08,18_exp1,queryA:despite,attention,0.0799
+2026-10-27 23:50:08,18_exp1,queryA:a,score,0.0
+2026-10-27 23:50:08,18_exp1,queryA:a,attention,0.0509
+2026-10-27 23:50:08,18_exp1,queryA:very,score,0.9
+2026-10-27 23:50:08,18_exp1,queryA:very,attention,0.1252
+2026-10-27 23:50:08,18_exp1,queryA:slow,score,1.2
+2026-10-27 23:50:08,18_exp1,queryA:slow,attention,0.1691
+2026-10-27 23:50:08,18_exp1,queryA:beginning,score,0.3
+2026-10-27 23:50:08,18_exp1,queryA:beginning,attention,0.0687
+2026-10-27 23:50:41,19_exp2,queryA:The,attention,0.0509
+2026-10-27 23:50:41,19_exp2,queryB:The,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:movie,attention,0.0509
+2026-10-27 23:50:41,19_exp2,queryB:movie,attention,0.319
+2026-10-27 23:50:41,19_exp2,queryA:was,attention,0.0509
+2026-10-27 23:50:41,19_exp2,queryB:was,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:surprisingly,attention,0.1252
+2026-10-27 23:50:41,19_exp2,queryB:surprisingly,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:good,attention,0.2282
+2026-10-27 23:50:41,19_exp2,queryB:good,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:despite,attention,0.0799
+2026-10-27 23:50:41,19_exp2,queryB:despite,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:a,attention,0.0509
+2026-10-27 23:50:41,19_exp2,queryB:a,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:very,attention,0.1252
+2026-10-27 23:50:41,19_exp2,queryB:very,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:slow,attention,0.1691
+2026-10-27 23:50:41,19_exp2,queryB:slow,attention,0.0712
+2026-10-27 23:50:41,19_exp2,queryA:beginning,attention,0.0687
+2026-10-27 23:50:41,19_exp2,queryB:beginning,attention,0.1116
+2026-10-27 23:51:45,22_attention_matrix,I->I,attention,0.4555
+2026-10-27 23:51:45,22_attention_matrix,I->like,attention,0.3199
+2026-10-27 23:51:45,22_attention_matrix,I->cats,attention,0.2246
+2026-10-27 23:51:45,22_attention_matrix,like->I,attention,0.2425
+2026-10-27 23:51:45,22_attention_matrix,like->like,attention,0.4121
+2026-10-27 23:51:45,22_attention_matrix,like->cats,attention,0.3454
+2026-10-27 23:51:45,22_attention_matrix,cats->I,attention,0.1978
+2026-10-27 23:51:45,22_attention_matrix,cats->like,attention,0.4011
+2026-10-27 23:51:45,22_attention_matrix,cats->cats,attention,0.4011
+2026-10-27 23:53:52,23_exp3,câu 1:cat,top3_attended,sleeping:0.274 | that:0.211 | adopted:0.113
+2026-10-27 23:53:52,23_exp3,câu 1:adopted,top3_attended,yesterday:0.24 | is:0.234 | adopted:0.111
+2026-10-27 23:53:52,23_exp3,câu 1:sleeping,top3_attended,cat:0.228 | sleeping:0.155 | I:0.141
+2026-10-27 23:53:52,23_exp3,câu 2:book,top3_attended,The:0.164 | book:0.139 | expensive:0.125
+2026-10-27 23:53:52,23_exp3,câu 2:bought,top3_attended,I:0.145 | book:0.135 | was:0.125
+2026-10-27 23:53:52,23_exp3,câu 2:expensive,top3_attended,yesterday:0.14 | expensive:0.138 | was:0.134
+2026-10-28 13:19:32,17_stability,"x=[1000,1001,1002]",weight_1,0.090031
+2026-10-28 13:19:32,17_stability,"x=[1000,1001,1002]",weight_2,0.244728
+2026-10-28 13:19:32,17_stability,"x=[1000,1001,1002]",weight_3,0.665241
+2026-10-28 13:19:32,15_temperature,T=0.5,max_weight,0.8282
+2026-10-28 13:19:32,15_temperature,T=0.5,entropy,0.6068
+2026-10-28 13:19:32,15_temperature,T=1.0,max_weight,0.5745
+2026-10-28 13:19:32,15_temperature,T=1.0,entropy,1.1211
+2026-10-28 13:19:32,15_temperature,T=2.0,max_weight,0.4056
+2026-10-28 13:19:32,15_temperature,T=2.0,entropy,1.3181
+2026-10-28 13:19:33,18_exp1,queryA:The,score,0.0
+2026-10-28 13:19:33,18_exp1,queryA:The,attention,0.0509
+2026-10-28 13:19:33,18_exp1,queryA:movie,score,0.0
+2026-10-28 13:19:33,18_exp1,queryA:movie,attention,0.0509
+2026-10-28 13:19:33,18_exp1,queryA:was,score,0.0
+2026-10-28 13:19:33,18_exp1,queryA:was,attention,0.0509
+2026-10-28 13:19:33,18_exp1,queryA:surprisingly,score,0.9
+2026-10-28 13:19:33,18_exp1,queryA:surprisingly,attention,0.1252
+2026-10-28 13:19:33,18_exp1,queryA:good,score,1.5
+2026-10-28 13:19:33,18_exp1,queryA:good,attention,0.2282
+2026-10-28 13:19:33,18_exp1,queryA:despite,score,0.45
+2026-10-28 13:19:33,18_exp1,queryA:despite,attention,0.0799
+2026-10-28 13:19:33,18_exp1,queryA:a,score,0.0
+2026-10-28 13:19:33,18_exp1,queryA:a,attention,0.0509
+2026-10-28 13:19:33,18_exp1,queryA:very,score,0.9
+2026-10-28 13:19:33,18_exp1,queryA:very,attention,0.1252
+2026-10-28 13:19:33,18_exp1,queryA:slow,score,1.2
+2026-10-28 13:19:33,18_exp1,queryA:slow,attention,0.1691
+2026-10-28 13:19:33,18_exp1,queryA:beginning,score,0.3
+2026-10-28 13:19:33,18_exp1,queryA:beginning,attention,0.0687
+2026-10-28 13:19:33,19_exp2,queryA:The,attention,0.0509
+2026-10-28 13:19:33,19_exp2,queryB:The,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:movie,attention,0.0509
+2026-10-28 13:19:33,19_exp2,queryB:movie,attention,0.319
+2026-10-28 13:19:33,19_exp2,queryA:was,attention,0.0509
+2026-10-28 13:19:33,19_exp2,queryB:was,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:surprisingly,attention,0.1252
+2026-10-28 13:19:33,19_exp2,queryB:surprisingly,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:good,attention,0.2282
+2026-10-28 13:19:33,19_exp2,queryB:good,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:despite,attention,0.0799
+2026-10-28 13:19:33,19_exp2,queryB:despite,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:a,attention,0.0509
+2026-10-28 13:19:33,19_exp2,queryB:a,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:very,attention,0.1252
+2026-10-28 13:19:33,19_exp2,queryB:very,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:slow,attention,0.1691
+2026-10-28 13:19:33,19_exp2,queryB:slow,attention,0.0712
+2026-10-28 13:19:33,19_exp2,queryA:beginning,attention,0.0687
+2026-10-28 13:19:33,19_exp2,queryB:beginning,attention,0.1116
+2026-10-28 13:19:34,22_attention_matrix,I->I,attention,0.4555
+2026-10-28 13:19:34,22_attention_matrix,I->like,attention,0.3199
+2026-10-28 13:19:34,22_attention_matrix,I->cats,attention,0.2246
+2026-10-28 13:19:34,22_attention_matrix,like->I,attention,0.2425
+2026-10-28 13:19:34,22_attention_matrix,like->like,attention,0.4121
+2026-10-28 13:19:34,22_attention_matrix,like->cats,attention,0.3454
+2026-10-28 13:19:34,22_attention_matrix,cats->I,attention,0.1978
+2026-10-28 13:19:34,22_attention_matrix,cats->like,attention,0.4011
+2026-10-28 13:19:34,22_attention_matrix,cats->cats,attention,0.4011
+2026-10-28 13:19:42,23_exp3,câu 1:cat,top3_attended,sleeping:0.274 | that:0.211 | adopted:0.113
+2026-10-28 13:19:42,23_exp3,câu 1:adopted,top3_attended,yesterday:0.24 | is:0.234 | adopted:0.111
+2026-10-28 13:19:42,23_exp3,câu 1:sleeping,top3_attended,cat:0.228 | sleeping:0.155 | I:0.141
+2026-10-28 13:19:42,23_exp3,câu 2:book,top3_attended,The:0.164 | book:0.139 | expensive:0.125
+2026-10-28 13:19:42,23_exp3,câu 2:bought,top3_attended,I:0.145 | book:0.135 | was:0.125
+2026-10-28 13:19:42,23_exp3,câu 2:expensive,top3_attended,yesterday:0.14 | expensive:0.138 | was:0.134
+2026-10-28 13:40:42,24_exp4,LSTM,Accuracy,0.8144
+2026-10-28 13:40:42,24_exp4,LSTM,F1,0.8164
+2026-10-28 13:40:42,24_exp4,LSTM,Training time (s),1235.7
+2026-10-28 13:40:42,24_exp4,LSTM,Parameters,1313345
+2026-10-28 13:42:27,24_exp4,Attention,Accuracy,0.8692
+2026-10-28 13:42:27,24_exp4,Attention,F1,0.868
+2026-10-28 13:42:27,24_exp4,Attention,Training time (s),103.1
+2026-10-28 13:42:27,24_exp4,Attention,Parameters,1296705
+2026-10-28 13:42:28,25_exp5,T=10,num_elements,100
+2026-10-28 13:42:28,25_exp5,T=10,time_ms,0.02
+2026-10-28 13:42:28,25_exp5,T=100,num_elements,10000
+2026-10-28 13:42:28,25_exp5,T=100,time_ms,0.13
+2026-10-28 13:42:28,25_exp5,T=500,num_elements,250000
+2026-10-28 13:42:28,25_exp5,T=500,time_ms,0.32
+2026-10-28 13:42:28,25_exp5,T=1000,num_elements,1000000
+2026-10-28 13:42:28,25_exp5,T=1000,time_ms,2.2
+2026-10-28 13:42:28,25_exp5,T=10000,num_elements,100000000
+2026-10-28 13:42:28,26_application,I like this movie.,lstm_prob_pos,0.3921
+2026-10-28 13:42:28,26_application,I like this movie.,attention_prob_pos,0.2329
+2026-10-28 13:42:28,26_application,I do not like this movie.,lstm_prob_pos,0.2402
+2026-10-28 13:42:28,26_application,I do not like this movie.,attention_prob_pos,0.0014
+2026-10-28 13:42:28,26_application,"I thought this movie would be bad, but it was actually excellent.",lstm_prob_pos,0.4039
+2026-10-28 13:42:28,26_application,"I thought this movie would be bad, but it was actually excellent.",attention_prob_pos,0.9748
