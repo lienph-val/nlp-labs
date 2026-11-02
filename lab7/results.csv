@@ -1,0 +1,13 @@
+experiment,config,parameters,train_time_s,accuracy,precision,recall,f1
+exp2_heads,"heads=1, d_k=128",1545346,44.1,0.8438,0.8604,0.8208,0.8401
+exp2_heads,"heads=2, d_k=64",1545346,44.9,0.8384,0.8398,0.8364,0.8381
+exp2_heads,"heads=4, d_k=32",1545346,48.2,0.8398,0.8503,0.8248,0.8374
+exp2_heads,"heads=8, d_k=16",1545346,54.4,0.8406,0.8438,0.836,0.8399
+exp4_lstm_vs_transformer,LSTM,1412354,30.0,0.7934,0.8099,0.7668,0.7878
+exp4_lstm_vs_transformer,Transformer (4 heads),1545346,48.2,0.8398,0.8503,0.8248,0.8374
+exp5_seq_length,"max_len=32, tokens_kept=13.9%, attn_mem_MB=1.0",1545346,23.3,0.7382,0.7512,0.7124,0.7313
+exp5_seq_length,"max_len=64, tokens_kept=27.5%, attn_mem_MB=4.2",1545346,27.7,0.786,0.812,0.7444,0.7767
+exp5_seq_length,"max_len=128, tokens_kept=51.8%, attn_mem_MB=16.8",1545346,48.3,0.8398,0.8503,0.8248,0.8374
+exp5_seq_length,"max_len=256, tokens_kept=77.2%, attn_mem_MB=67.1",1545346,107.8,0.863,0.8844,0.8352,0.8591
+exp6_pooling,"mean pooling, heads=4",1545346,48.2,0.8398,0.8503,0.8248,0.8374
+exp6_pooling,"cls-style pooling, heads=4",1545346,55.0,0.8326,0.8486,0.8096,0.8287
