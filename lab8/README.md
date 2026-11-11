@@ -1,0 +1,1 @@
+File fine_tuning.ipynb chạy trên Google Colab. Nếu muốn chạy trên máy cá nhân mở comment của đường dẫn ngay dưới.

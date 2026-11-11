@@ -1,0 +1,19 @@
+experiment,run_name,model,mode,train_frac,n_train,max_len,epochs,lr,train_domain,test_domain,accuracy,precision,recall,f1,train_time_s,n_params,n_trainable,peak_mem_mb,seed,hardware,timestamp
+exp1,scratch,bert-tiny-scratch,scratch,1.0,10000,128,2,0.0005,imdb,imdb,0.819,0.8201,0.8233,0.8217,18.5,4254594,4254594,136.1,42,Tesla T4,2026-11-10 16:22:24
+exp1,pretrained_finetune,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
+exp2,frozen,bert-base-uncased,frozen,1.0,10000,128,2,0.001,imdb,imdb,0.697,0.6609,0.8253,0.734,39.6,109483778,1538,1667.3,42,Tesla T4,2026-11-10 16:28:24
+exp2,finetune,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
+exp3,finetune_10,bert-base-uncased,finetune,0.1,1000,128,2,2e-05,imdb,imdb,0.7875,0.7663,0.8351,0.7992,15.4,109483778,109483778,3944.9,42,Tesla T4,2026-11-10 16:29:13
+exp3,scratch_10,bert-tiny-scratch,scratch,0.1,1000,128,2,0.0005,imdb,imdb,0.5095,0.508,1.0,0.6738,0.8,4254594,4254594,1004.8,42,Tesla T4,2026-11-10 16:29:14
+exp3,finetune_25,bert-base-uncased,finetune,0.25,2500,128,2,2e-05,imdb,imdb,0.843,0.8294,0.8687,0.8486,35.2,109483778,109483778,3944.9,42,Tesla T4,2026-11-10 16:29:53
+exp3,scratch_25,bert-tiny-scratch,scratch,0.25,2500,128,2,0.0005,imdb,imdb,0.726,0.7167,0.7591,0.7373,2.4,4254594,4254594,1004.8,42,Tesla T4,2026-11-10 16:29:55
+exp3,finetune_50,bert-base-uncased,finetune,0.5,5000,128,2,2e-05,imdb,imdb,0.86,0.8428,0.8894,0.8655,72.6,109483778,109483778,3944.9,42,Tesla T4,2026-11-10 16:31:11
+exp3,scratch_50,bert-tiny-scratch,scratch,0.5,5000,128,2,0.0005,imdb,imdb,0.795,0.7647,0.8598,0.8095,8.0,4254594,4254594,1004.8,42,Tesla T4,2026-11-10 16:31:20
+exp3,finetune_100,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
+exp3,scratch_100,bert-tiny-scratch,scratch,1.0,10000,128,2,0.0005,imdb,imdb,0.819,0.8201,0.8233,0.8217,18.5,4254594,4254594,136.1,42,Tesla T4,2026-11-10 16:22:24
+exp4,finetune_len64,bert-base-uncased,finetune,1.0,10000,64,2,2e-05,imdb,imdb,0.819,0.8,0.8569,0.8275,99.1,109483778,109483778,3159.0,42,Tesla T4,2026-11-10 16:34:03
+exp4,finetune_len128,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
+exp4,finetune_len256,bert-base-uncased,finetune,1.0,10000,256,2,2e-05,imdb,imdb,0.899,0.8737,0.9358,0.9037,236.1,109483778,109483778,5557.5,42,Tesla T4,2026-11-10 16:38:19
+exp5,imdb_to_yelp,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,yelp,0.8905,0.8563,0.9325,0.8928,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:41:54
+exp5,imdb_to_imdb,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
+app,imdb_sentiment,bert-base-uncased,finetune,1.0,10000,128,2,2e-05,imdb,imdb,0.8705,0.8434,0.9141,0.8773,130.5,109483778,109483778,3084.9,42,Tesla T4,2026-11-10 16:24:46
