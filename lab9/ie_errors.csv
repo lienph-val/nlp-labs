@@ -1,0 +1,14 @@
+sent_id,text,error,type,entity
+2,1. Vadim Sashurin ( Belarus ) 26 minutes 17.2 seconds ( no penalty,"FP (predicted, not in gold)",PERSON,.
+5,"The contract involved upgrading the flight data processing system at the Oceanic Control Centre in Prestwick in south west Scotland for National Air Traffic Services Ltd ( NATS ) , subsidiary of the Civil Aviation Authority .","FP (predicted, not in gold)",ORGANIZATION,Oceanic Control Centre
+5,"The contract involved upgrading the flight data processing system at the Oceanic Control Centre in Prestwick in south west Scotland for National Air Traffic Services Ltd ( NATS ) , subsidiary of the Civil Aviation Authority .","FN (in gold, not predicted)",LOCATION,Oceanic Control Centre
+10,"ASEAN groups Brunei , Indonesia , Malaysia , the Philippines , Singapore , Thailand and Vietnam .","FN (in gold, not predicted)",ORGANIZATION,ASEAN
+11,15. Katharina Gutensohn ( Germany ) 1:18.92,"FP (predicted, not in gold)",PERSON,.
+13,The Ministry 's Umar said on Thursday that both Bre-X and Barrick had responded positively to a government letter recommending a 25-75 split in the Busang gold property .,"FP (predicted, not in gold)",LOCATION,Busang
+13,The Ministry 's Umar said on Thursday that both Bre-X and Barrick had responded positively to a government letter recommending a 25-75 split in the Busang gold property .,"FN (in gold, not predicted)",ORGANIZATION,Busang
+15,"Let 's march together , "" Scalfaro , a northerner himself , said .","FN (in gold, not predicted)",LOCATION,Let
+16,Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .,"FN (in gold, not predicted)",ORGANIZATION,USA III
+17,"Russia said on Friday it expected a constructive relationship with Madeleine Albright , nominated by U.S. President Bill Clinton to be Secretary of State .","FP (predicted, not in gold)",LOCATION,U
+17,"Russia said on Friday it expected a constructive relationship with Madeleine Albright , nominated by U.S. President Bill Clinton to be Secretary of State .","FP (predicted, not in gold)",LOCATION,S.
+17,"Russia said on Friday it expected a constructive relationship with Madeleine Albright , nominated by U.S. President Bill Clinton to be Secretary of State .","FN (in gold, not predicted)",LOCATION,U.S.
+24,9. Johann Gregoire ( France ) 22.58,"FP (predicted, not in gold)",PERSON,.

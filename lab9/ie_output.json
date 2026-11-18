@@ -1,0 +1,616 @@
+{
+  "sentences": [
+    "Dutch forward Reggie Blinker had his indefinite suspension lifted by FIFA on Friday and was set to make his Sheffield Wednesday comeback against Liverpool on Saturday .",
+    "Sylvain Bouchard ( Canada ) 38.00 ; 9 .",
+    "1. Vadim Sashurin ( Belarus ) 26 minutes 17.2 seconds ( no penalty",
+    "Peres , who was ousted in May by rightwing Israeli leader Benjamin Netanyahu , said there could not be real negotiations with Lebanon \" unless it will stop the maltreatment of the SLA and its commanders . \"",
+    "Hercules 15 2 2 11 11 29 8",
+    "The contract involved upgrading the flight data processing system at the Oceanic Control Centre in Prestwick in south west Scotland for National Air Traffic Services Ltd ( NATS ) , subsidiary of the Civil Aviation Authority .",
+    "The European Union and Poland have resolved disagreements over a new Polish oil import regime , the European Commission said on Friday .",
+    "Police smashed two drugs smuggling rings and arrested 30 people after a taxidriver in Spain alerted them to a suitcase of heroin left in his cab , Belgian police said on Friday .",
+    "R. Ponting lbw McLean 5",
+    "NOTE - Sangetsu Co Ltd is a trader specialising in interiors .",
+    "ASEAN groups Brunei , Indonesia , Malaysia , the Philippines , Singapore , Thailand and Vietnam .",
+    "15. Katharina Gutensohn ( Germany ) 1:18.92",
+    "Everton 16 6 6 4 25 20 24",
+    "The Ministry 's Umar said on Thursday that both Bre-X and Barrick had responded positively to a government letter recommending a 25-75 split in the Busang gold property .",
+    "PHOENIX 9 13 4 61 74 22",
+    "Let 's march together , \" Scalfaro , a northerner himself , said .",
+    "Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday .",
+    "Russia said on Friday it expected a constructive relationship with Madeleine Albright , nominated by U.S. President Bill Clinton to be Secretary of State .",
+    "\" Today he is a mobile , energetic man with lots of colour in his cheeks , \" said Yegor Stroyev who met Yeltsin , 65 , on Friday at a country residence . \"",
+    "19= Svetlana Gladishiva ( Russia ) 23",
+    "Electronic Data bags flight data contract .",
+    "Van der Vegt 77 ) .",
+    "One of two roads leading to the University of Yangon from the institute had been closed by authorities .",
+    "Moroccan Mohamed Benchaou , the third person to die after a bombing on a Paris train , was a 25-year-old student about to submit a mathematics doctorate , the Moroccan embassy said on Friday .",
+    "9. Johann Gregoire ( France ) 22.58",
+    "Tallinna Pank said its assets rose 17.8 million kroons to 1.84 billion kroons .",
+    "Turkey says Syria sponsors the PKK , fighting for Kurdish self-rule in southeast Turkey .",
+    "Stockport 22 10 6 6 29 25 36",
+    "Bordeaux 20 9 7 4 29 21 34",
+    "The United States accuses Rashid of belonging to the May 15 Palestinian guerrilla group and being an accomplished student of master Palestinian bombmaker Abu Ibrahim ."
+  ],
+  "entities": [
+    {
+      "text": "Reggie Blinker",
+      "type": "PERSON",
+      "start": 14,
+      "end": 28,
+      "sentence_id": 0
+    },
+    {
+      "text": "FIFA",
+      "type": "ORGANIZATION",
+      "start": 69,
+      "end": 73,
+      "sentence_id": 0
+    },
+    {
+      "text": "Sheffield Wednesday",
+      "type": "ORGANIZATION",
+      "start": 108,
+      "end": 127,
+      "sentence_id": 0
+    },
+    {
+      "text": "Liverpool",
+      "type": "ORGANIZATION",
+      "start": 145,
+      "end": 154,
+      "sentence_id": 0
+    },
+    {
+      "text": "Sylvain Bouchard",
+      "type": "PERSON",
+      "start": 0,
+      "end": 16,
+      "sentence_id": 1
+    },
+    {
+      "text": "Canada",
+      "type": "LOCATION",
+      "start": 19,
+      "end": 25,
+      "sentence_id": 1
+    },
+    {
+      "text": ".",
+      "type": "PERSON",
+      "start": 1,
+      "end": 2,
+      "sentence_id": 2
+    },
+    {
+      "text": "Vadim Sashurin",
+      "type": "PERSON",
+      "start": 3,
+      "end": 17,
+      "sentence_id": 2
+    },
+    {
+      "text": "Belarus",
+      "type": "LOCATION",
+      "start": 20,
+      "end": 27,
+      "sentence_id": 2
+    },
+    {
+      "text": "Peres",
+      "type": "PERSON",
+      "start": 0,
+      "end": 5,
+      "sentence_id": 3
+    },
+    {
+      "text": "Benjamin Netanyahu",
+      "type": "PERSON",
+      "start": 58,
+      "end": 76,
+      "sentence_id": 3
+    },
+    {
+      "text": "Lebanon",
+      "type": "LOCATION",
+      "start": 126,
+      "end": 133,
+      "sentence_id": 3
+    },
+    {
+      "text": "SLA",
+      "type": "ORGANIZATION",
+      "start": 180,
+      "end": 183,
+      "sentence_id": 3
+    },
+    {
+      "text": "Hercules",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 8,
+      "sentence_id": 4
+    },
+    {
+      "text": "Oceanic Control Centre",
+      "type": "ORGANIZATION",
+      "start": 73,
+      "end": 95,
+      "sentence_id": 5
+    },
+    {
+      "text": "Prestwick",
+      "type": "LOCATION",
+      "start": 99,
+      "end": 108,
+      "sentence_id": 5
+    },
+    {
+      "text": "Scotland",
+      "type": "LOCATION",
+      "start": 123,
+      "end": 131,
+      "sentence_id": 5
+    },
+    {
+      "text": "National Air Traffic Services Ltd",
+      "type": "ORGANIZATION",
+      "start": 136,
+      "end": 169,
+      "sentence_id": 5
+    },
+    {
+      "text": "NATS",
+      "type": "ORGANIZATION",
+      "start": 172,
+      "end": 176,
+      "sentence_id": 5
+    },
+    {
+      "text": "Civil Aviation Authority",
+      "type": "ORGANIZATION",
+      "start": 199,
+      "end": 223,
+      "sentence_id": 5
+    },
+    {
+      "text": "European Union",
+      "type": "ORGANIZATION",
+      "start": 4,
+      "end": 18,
+      "sentence_id": 6
+    },
+    {
+      "text": "Poland",
+      "type": "LOCATION",
+      "start": 23,
+      "end": 29,
+      "sentence_id": 6
+    },
+    {
+      "text": "European Commission",
+      "type": "ORGANIZATION",
+      "start": 100,
+      "end": 119,
+      "sentence_id": 6
+    },
+    {
+      "text": "Spain",
+      "type": "LOCATION",
+      "start": 86,
+      "end": 91,
+      "sentence_id": 7
+    },
+    {
+      "text": "R. Ponting",
+      "type": "PERSON",
+      "start": 0,
+      "end": 10,
+      "sentence_id": 8
+    },
+    {
+      "text": "McLean",
+      "type": "PERSON",
+      "start": 15,
+      "end": 21,
+      "sentence_id": 8
+    },
+    {
+      "text": "Sangetsu Co Ltd",
+      "type": "ORGANIZATION",
+      "start": 7,
+      "end": 22,
+      "sentence_id": 9
+    },
+    {
+      "text": "Brunei",
+      "type": "LOCATION",
+      "start": 13,
+      "end": 19,
+      "sentence_id": 10
+    },
+    {
+      "text": "Indonesia",
+      "type": "LOCATION",
+      "start": 22,
+      "end": 31,
+      "sentence_id": 10
+    },
+    {
+      "text": "Malaysia",
+      "type": "LOCATION",
+      "start": 34,
+      "end": 42,
+      "sentence_id": 10
+    },
+    {
+      "text": "Philippines",
+      "type": "LOCATION",
+      "start": 49,
+      "end": 60,
+      "sentence_id": 10
+    },
+    {
+      "text": "Singapore",
+      "type": "LOCATION",
+      "start": 63,
+      "end": 72,
+      "sentence_id": 10
+    },
+    {
+      "text": "Thailand",
+      "type": "LOCATION",
+      "start": 75,
+      "end": 83,
+      "sentence_id": 10
+    },
+    {
+      "text": "Vietnam",
+      "type": "LOCATION",
+      "start": 88,
+      "end": 95,
+      "sentence_id": 10
+    },
+    {
+      "text": ".",
+      "type": "PERSON",
+      "start": 2,
+      "end": 3,
+      "sentence_id": 11
+    },
+    {
+      "text": "Katharina Gutensohn",
+      "type": "PERSON",
+      "start": 4,
+      "end": 23,
+      "sentence_id": 11
+    },
+    {
+      "text": "Germany",
+      "type": "LOCATION",
+      "start": 26,
+      "end": 33,
+      "sentence_id": 11
+    },
+    {
+      "text": "Everton",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 7,
+      "sentence_id": 12
+    },
+    {
+      "text": "Umar",
+      "type": "PERSON",
+      "start": 16,
+      "end": 20,
+      "sentence_id": 13
+    },
+    {
+      "text": "Bre-X",
+      "type": "ORGANIZATION",
+      "start": 48,
+      "end": 53,
+      "sentence_id": 13
+    },
+    {
+      "text": "Barrick",
+      "type": "ORGANIZATION",
+      "start": 58,
+      "end": 65,
+      "sentence_id": 13
+    },
+    {
+      "text": "Busang",
+      "type": "LOCATION",
+      "start": 148,
+      "end": 154,
+      "sentence_id": 13
+    },
+    {
+      "text": "PHOENIX",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 7,
+      "sentence_id": 14
+    },
+    {
+      "text": "Scalfaro",
+      "type": "PERSON",
+      "start": 26,
+      "end": 34,
+      "sentence_id": 15
+    },
+    {
+      "text": "Brian Shimer",
+      "type": "PERSON",
+      "start": 0,
+      "end": 12,
+      "sentence_id": 16
+    },
+    {
+      "text": "Russia",
+      "type": "LOCATION",
+      "start": 0,
+      "end": 6,
+      "sentence_id": 17
+    },
+    {
+      "text": "Madeleine Albright",
+      "type": "PERSON",
+      "start": 67,
+      "end": 85,
+      "sentence_id": 17
+    },
+    {
+      "text": "U",
+      "type": "LOCATION",
+      "start": 101,
+      "end": 102,
+      "sentence_id": 17
+    },
+    {
+      "text": "S.",
+      "type": "LOCATION",
+      "start": 103,
+      "end": 105,
+      "sentence_id": 17
+    },
+    {
+      "text": "Bill Clinton",
+      "type": "PERSON",
+      "start": 116,
+      "end": 128,
+      "sentence_id": 17
+    },
+    {
+      "text": "Yegor Stroyev",
+      "type": "PERSON",
+      "start": 82,
+      "end": 95,
+      "sentence_id": 18
+    },
+    {
+      "text": "Yeltsin",
+      "type": "PERSON",
+      "start": 104,
+      "end": 111,
+      "sentence_id": 18
+    },
+    {
+      "text": "Svetlana Gladishiva",
+      "type": "PERSON",
+      "start": 4,
+      "end": 23,
+      "sentence_id": 19
+    },
+    {
+      "text": "Russia",
+      "type": "LOCATION",
+      "start": 26,
+      "end": 32,
+      "sentence_id": 19
+    },
+    {
+      "text": "Electronic Data",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 15,
+      "sentence_id": 20
+    },
+    {
+      "text": "Van der Vegt",
+      "type": "PERSON",
+      "start": 0,
+      "end": 12,
+      "sentence_id": 21
+    },
+    {
+      "text": "University of Yangon",
+      "type": "ORGANIZATION",
+      "start": 32,
+      "end": 52,
+      "sentence_id": 22
+    },
+    {
+      "text": "Mohamed Benchaou",
+      "type": "PERSON",
+      "start": 9,
+      "end": 25,
+      "sentence_id": 23
+    },
+    {
+      "text": "Paris",
+      "type": "LOCATION",
+      "start": 73,
+      "end": 78,
+      "sentence_id": 23
+    },
+    {
+      "text": ".",
+      "type": "PERSON",
+      "start": 1,
+      "end": 2,
+      "sentence_id": 24
+    },
+    {
+      "text": "Johann Gregoire",
+      "type": "PERSON",
+      "start": 3,
+      "end": 18,
+      "sentence_id": 24
+    },
+    {
+      "text": "France",
+      "type": "LOCATION",
+      "start": 21,
+      "end": 27,
+      "sentence_id": 24
+    },
+    {
+      "text": "Tallinna Pank",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 13,
+      "sentence_id": 25
+    },
+    {
+      "text": "Turkey",
+      "type": "LOCATION",
+      "start": 0,
+      "end": 6,
+      "sentence_id": 26
+    },
+    {
+      "text": "Syria",
+      "type": "LOCATION",
+      "start": 12,
+      "end": 17,
+      "sentence_id": 26
+    },
+    {
+      "text": "PKK",
+      "type": "ORGANIZATION",
+      "start": 31,
+      "end": 34,
+      "sentence_id": 26
+    },
+    {
+      "text": "Turkey",
+      "type": "LOCATION",
+      "start": 81,
+      "end": 87,
+      "sentence_id": 26
+    },
+    {
+      "text": "Stockport",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 9,
+      "sentence_id": 27
+    },
+    {
+      "text": "Bordeaux",
+      "type": "ORGANIZATION",
+      "start": 0,
+      "end": 8,
+      "sentence_id": 28
+    },
+    {
+      "text": "United States",
+      "type": "LOCATION",
+      "start": 4,
+      "end": 17,
+      "sentence_id": 29
+    },
+    {
+      "text": "Rashid",
+      "type": "PERSON",
+      "start": 26,
+      "end": 32,
+      "sentence_id": 29
+    },
+    {
+      "text": "Abu Ibrahim",
+      "type": "PERSON",
+      "start": 154,
+      "end": 165,
+      "sentence_id": 29
+    }
+  ],
+  "structured": {
+    "PERSON": [
+      "Reggie Blinker",
+      "Sylvain Bouchard",
+      ".",
+      "Vadim Sashurin",
+      "Peres",
+      "Benjamin Netanyahu",
+      "R. Ponting",
+      "McLean",
+      "Katharina Gutensohn",
+      "Umar",
+      "Scalfaro",
+      "Brian Shimer",
+      "Madeleine Albright",
+      "Bill Clinton",
+      "Yegor Stroyev",
+      "Yeltsin",
+      "Svetlana Gladishiva",
+      "Van der Vegt",
+      "Mohamed Benchaou",
+      "Johann Gregoire",
+      "Rashid",
+      "Abu Ibrahim"
+    ],
+    "ORGANIZATION": [
+      "FIFA",
+      "Sheffield Wednesday",
+      "Liverpool",
+      "SLA",
+      "Hercules",
+      "Oceanic Control Centre",
+      "National Air Traffic Services Ltd",
+      "NATS",
+      "Civil Aviation Authority",
+      "European Union",
+      "European Commission",
+      "Sangetsu Co Ltd",
+      "Everton",
+      "Bre-X",
+      "Barrick",
+      "PHOENIX",
+      "Electronic Data",
+      "University of Yangon",
+      "Tallinna Pank",
+      "PKK",
+      "Stockport",
+      "Bordeaux"
+    ],
+    "LOCATION": [
+      "Canada",
+      "Belarus",
+      "Lebanon",
+      "Prestwick",
+      "Scotland",
+      "Poland",
+      "Spain",
+      "Brunei",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Singapore",
+      "Thailand",
+      "Vietnam",
+      "Germany",
+      "Busang",
+      "Russia",
+      "U",
+      "S.",
+      "Paris",
+      "France",
+      "Turkey",
+      "Syria",
+      "United States"
+    ]
+  }
+}
