@@ -1,0 +1,13 @@
+experiment,model,max_length,stride,EM,F1,training_time_sec,notes
+Baseline_Keyword_Overlap,Heuristic_Overlap,0,0,2.07,19.47,1.06,Mục 21: Sentence keyword overlap + non-question content span
+Exp1_ContextLength_128,distilbert-base-uncased,128,32,65.23,75.56,728.53,"Epochs=2, BS=16, LR=3e-05"
+Exp1_ContextLength_256,distilbert-base-uncased,256,64,62.97,74.56,764.59,"Epochs=2, BS=16, LR=3e-05"
+Exp1_ContextLength_384,distilbert-base-uncased,384,128,65.3,76.62,1109.81,"Epochs=2, BS=16, LR=3e-05"
+Exp2_Finetuned_Transformer_Main,distilbert-base-uncased,384,128,65.3,76.62,1109.81,Mục 17: Main fine-tuned QA model
+Exp4_High_Lexical_Overlap,distilbert-base-uncased,384,128,70.36,81.52,,"n=1218, overlap>=0.75"
+Exp4_Low_Lexical_Overlap,distilbert-base-uncased,384,128,54.35,66.32,,"n=552, overlap<=0.45"
+Exp5_AnswerLen_1_token,distilbert-base-uncased,384,128,71.4,78.42,,n=1021
+Exp5_AnswerLen_2-3_tokens,distilbert-base-uncased,384,128,68.56,79.03,,n=1196
+Exp5_AnswerLen_4-6_tokens,distilbert-base-uncased,384,128,59.91,75.42,,n=449
+Exp5_AnswerLen_7+_tokens,distilbert-base-uncased,384,128,42.22,64.09,,n=334
+Error_Analysis_Summary,distilbert-base-uncased,384,128,,,,"wrong_start=227, wrong_end=206, wrong_span=608"
